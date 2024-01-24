@@ -1,3 +1,18 @@
+## 8.2.0
+
+* Migrate to 3.16.0 
+
+## 8.1.1
+
+* Fix issue with onDragEnd
+
+## 8.1.0
+
+* Migrate to 3.13.0 
+* Breaking change: remove preloadPagesCount of ExtendedImageGesturePageView. The cacheExtent of Viewport should be 0. 
+* Add demo to instead of preloadPagesCount of ExtendedImageGesturePageView
+
+
 ## 8.0.2
 
 * [EditorCropLayerPainter.paintMask] not use BlendMode.clear now, due to '--web-renderer html' is not support.
