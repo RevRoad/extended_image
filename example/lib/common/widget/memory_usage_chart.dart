@@ -52,8 +52,8 @@ class _MemoryUsageChartState extends State<MemoryUsageChart> {
     return LineChartData(
       lineTouchData: LineTouchData(
         touchTooltipData: LineTouchTooltipData(
-          tooltipBgColor: Colors.blueGrey.withOpacity(0.8),
-        ),
+            // tooltipBgColor: Colors.blueGrey.withOpacity(0.8),
+            ),
         handleBuiltInTouches: true,
       ),
       gridData: const FlGridData(
